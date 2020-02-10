@@ -83,3 +83,5 @@ This project includes a `docs` folder with more details on:
 1. [docker](https://narhakobyan.github.io/awesome-nest-boilerplate/docs/architecture.html)
 
 1. [circleci](https://github.com/adminrapidinnovation/hodlgame-backend/blob/master/README.md)
+
+1. [sentry](https://docs.sentry.io/)

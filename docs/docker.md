@@ -1,6 +1,27 @@
+<p align="center">
+  <p align="center">
+    <a href="https://docs.docker.com/" target="_blank">
+      <img src="https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png" alt="docker" height="72">
+    </a>
+  </p>
+  <p align="center">
+    Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.
+  </p>
+</p>
+
+# Docker Setup and Development
+
 # Docker
 
-if you are familiar with [docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose) then you can run built in docker-compose file, which will install and configure application and database for you.
+If you are familiar with [docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose) then you can run built in docker-compose file, which will install and configure application and database for you.
+
+## Uninstall old versions
+
+```bash 
+
+sudo apt-get remove docker docker-engine docker.io containerd runc
+
+```
 
 ## Docker installation
 
@@ -73,13 +94,5 @@ user: postgres
 pass: postgres
 ```
 
-create database `nest_boilerplate` and your application fully is ready to use.
+create database `stater_nest` and your application fully is ready to use.
 
-
-## Uninstall old versions
-
-```bash 
-
-sudo apt-get remove docker docker-engine docker.io containerd runc
-
-```
